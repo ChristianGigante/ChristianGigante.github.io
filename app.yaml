@@ -4,9 +4,9 @@ threadsafe: true
 
 handlers:
 - url: /
-  static_files: ChristianGigante.github.io/index.html
-  upload: ChristianGigante.github.io/index.html
+  static_files: www/index.html
+  upload: www/index.html
 
 - url: /(.*)
   static_files: www/\1
-  upload: ChristianGigante.github.io/(.*)
+  upload: www/(.*)
